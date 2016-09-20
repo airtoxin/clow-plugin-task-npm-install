@@ -1,0 +1,48 @@
+{
+  "name": "clow-task-plugin-npm-install",
+  "version": "0.0.1",
+  "description": "clow&#39;s task plugin of npm-install",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rimraf lib && babel src -d lib --copy-files",
+    "watch": "rimraf lib && babel src -d lib --copy-files --watch",
+    "lint": "eslint {src,test} --fix",
+    "unittest": "mocha --compilers js:babel-register --recursive test",
+    "test": "npm run lint && npm run unittest",
+    "prepublish": "npm test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airtoxin/clow-task-plugin-npm-install"
+  },
+  "keywords": [],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "airtoxin <airtoxin@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airtoxin/clow-task-plugin-npm-install/issues"
+  },
+  "homepage": "https://github.com/airtoxin/clow-task-plugin-npm-install#readme",
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-eslint": "6.1.2",
+    "babel-preset-es2015": "6.14.0",
+    "babel-preset-es2016": "6.11.3",
+    "babel-preset-es2017": "6.14.0",
+    "babel-preset-stage-2": "6.13.0",
+    "babel-preset-stage-3": "6.11.0",
+    "babel-register": "6.14.0",
+    "eslint": "3.5.0",
+    "eslint-config-airbnb-base": "7.1.0",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-babel": "3.3.0",
+    "eslint-plugin-import": "1.15.0",
+    "mocha": "3.0.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.13.0"
+  }
+}
