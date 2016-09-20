@@ -1,7 +1,7 @@
 {
   "name": "clow-task-plugin-npm-install",
   "version": "0.0.1",
-  "description": "clow&#39;s task plugin of npm-install",
+  "description": "clow's task plugin of npm-install",
   "main": "lib/index.js",
   "scripts": {
     "build": "rimraf lib && babel src -d lib --copy-files",
@@ -43,6 +43,7 @@
     "mocha": "3.0.2"
   },
   "dependencies": {
-    "babel-polyfill": "6.13.0"
+    "babel-polyfill": "6.13.0",
+    "clow": "0.0.4"
   }
 }
