@@ -1,6 +1,6 @@
 {
   "name": "clow-plugin-task-npm-install",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "clow's task plugin of npm-install",
   "main": "lib/index.js",
   "scripts": {
