@@ -1,5 +1,5 @@
 {
-  "name": "clow-task-plugin-npm-install",
+  "name": "clow-plugin-task-npm-install",
   "version": "0.0.1",
   "description": "clow's task plugin of npm-install",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airtoxin/clow-task-plugin-npm-install"
+    "url": "https://github.com/airtoxin/clow-plugin-task-npm-install"
   },
   "keywords": [],
   "directories": {
@@ -23,9 +23,9 @@
   "author": "airtoxin <airtoxin@icloud.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airtoxin/clow-task-plugin-npm-install/issues"
+    "url": "https://github.com/airtoxin/clow-plugin-task-npm-install/issues"
   },
-  "homepage": "https://github.com/airtoxin/clow-task-plugin-npm-install#readme",
+  "homepage": "https://github.com/airtoxin/clow-plugin-task-npm-install#readme",
   "devDependencies": {
     "babel-cli": "6.14.0",
     "babel-eslint": "6.1.2",
