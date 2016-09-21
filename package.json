@@ -44,7 +44,6 @@
     "rimraf": "2.5.4"
   },
   "dependencies": {
-    "babel-polyfill": "6.13.0",
     "clow": "0.0.4"
   }
 }
