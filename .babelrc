@@ -5,6 +5,5 @@
     "es2017",
     "stage-2",
     "stage-3"
-  ],
-  "plugins": ["transform-runtime"]
+  ]
 }

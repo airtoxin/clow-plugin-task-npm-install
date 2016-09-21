@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import { exec } from 'child_process';
 import { BaseTask } from 'clow';
 
